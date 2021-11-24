@@ -87,7 +87,7 @@ One other thing to watch is how the `holiday` keyword is used. Your first instin
 
 ## Full examples
 
-This example excludes Saturdays and Sundays but not holidays. Two custom holidays are added.
+This example excludes Saturdays and Sundays but not holidays.
 
 ```yaml
 # Example 1 configuration.yaml entry
@@ -96,9 +96,6 @@ binary_sensor:
     country: US
     workdays: [mon, tue, wed, thu, fri]
     excludes: [sat, sun]
-    add_holidays:
-      - "2020-02-24"
-      - "2020-04-25"
 ```
 
 This example excludes Saturdays, Sundays and holidays. One custom holiday is added.
