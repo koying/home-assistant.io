@@ -148,6 +148,11 @@ password:
   description: The password for accessing the REST endpoint.
   required: false
   type: string
+scan_interval:
+  description: Defines number of seconds for polling interval.
+  required: false
+  type: integer
+  default: 15
 headers:
   description: The headers for the requests.
   required: false
